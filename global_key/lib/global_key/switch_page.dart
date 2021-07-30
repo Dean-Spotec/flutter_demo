@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SwitchWidget extends StatefulWidget {
-  const SwitchWidget({
+class SwitchPage extends StatefulWidget {
+  const SwitchPage({
     Key? key,
     required this.child,
     required this.isGlobal,
@@ -11,10 +11,10 @@ class SwitchWidget extends StatefulWidget {
   final bool isGlobal;
 
   @override
-  _SwitchWidgetState createState() => _SwitchWidgetState();
+  _SwitchPageState createState() => _SwitchPageState();
 }
 
-class _SwitchWidgetState extends State<SwitchWidget> {
+class _SwitchPageState extends State<SwitchPage> {
   final _childKey = GlobalKey();
   var showBackground = false;
 
